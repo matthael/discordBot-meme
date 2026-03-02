@@ -1,5 +1,6 @@
 require('dotenv').config()
 
+const ffmpeg = require('ffmpeg-static');
 const express = require("express");
 const app = express();
 
