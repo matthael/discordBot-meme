@@ -111,7 +111,7 @@ client.once('clientReady', async () => {
     sendAlert("🍆💦🫃 Voce não foi um bom garoto? então toma 🍆💦🫃", "10min.mp3")
   }, { timezone: "America/Sao_Paulo" })
 
-  cron.schedule('30 59 22 * * *', () => {
+  cron.schedule('0 57 22 * * *', () => {
     sendAlert("⚡ Sinta a Força de Aceleração ⚡", "30secs.mp3")
   }, { timezone: "America/Sao_Paulo" })
 
